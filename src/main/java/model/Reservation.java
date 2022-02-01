@@ -34,9 +34,13 @@ public class Reservation {
         return this.checkOutDate;
     }
 
-    public Landlord getLandlord() { return this.landlord; }
+    public Landlord getLandlord() {
+        return this.landlord;
+    }
 
-    public BigDecimal getPrice() { return this.price; }
+    public BigDecimal getPrice() {
+        return this.price;
+    }
 
     @Override
     public String toString() {
